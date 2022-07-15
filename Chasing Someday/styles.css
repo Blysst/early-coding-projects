@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #4BA396;
+}
+/* Link Styling */
+nav ul li a {
+   
+}
+
+nav ul li a:hover {
+    color: #4B5BA3;
+    transition: .3s;
+}
+.main {
+    height: 15vh;
+    width: 100%;
+    
+}
+.logo {
+    color: teal;
+    font-size: 35px;
+}
+span {
+    color: white;
+    font-size: 15px;
+}
+/*Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 10%;
+    padding-top: 45px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+    color: black;
+    
+}
+
+button {
+    border: none;
+    background: #A34B51;
+    border-radius: 30px;
+    padding: 12px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .3s;
+}
+
+button:hover {
+    transform: scale(1.5)
+    
+}
+/* body components */
+.main-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.motto {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+}
